@@ -107,7 +107,7 @@
         <opengauss.version>3.0.0</opengauss.version>
         <mysql-connector-java.version>5.1.47</mysql-connector-java.version>
         <mariadb-java-client.version>2.4.2</mariadb-java-client.version>
-        <h2.version>2.1.214</h2.version>
+        <h2.version>2.2.220</h2.version>
         <mssql.version>6.1.7.jre8-preview</mssql.version>
         
         <hikari-cp.version>3.4.2</hikari-cp.version>
@@ -778,7 +778,7 @@
                     <configuration>
                         <trimStackTrace>false</trimStackTrace>
                         <excludes>
-                            <exclude />
+                            <exclude/>
                         </excludes>
                     </configuration>
                 </plugin>
@@ -827,7 +827,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -839,7 +839,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -1298,7 +1298,7 @@
                             <configuration>
                                 <trimStackTrace>false</trimStackTrace>
                                 <excludes>
-                                    <exclude />
+                                    <exclude/>
                                 </excludes>
                                 <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED</argLine>
                             </configuration>
